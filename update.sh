@@ -36,4 +36,4 @@ npm i -g pino
 npm install -g forever
 forever start index.js sniff eth0 $ip | pino
 
-echo "搭建完成~QQ群597070472"
+echo "搭建完成~QQ66839446"
