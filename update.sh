@@ -1,12 +1,12 @@
 #!/bin/bash
 echo "欢迎使用一键搭建"
-echo "支持QQ群：597070472"
+echo "QQ：66839446"
 echo "即将搭建的是4.27版本"
 echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/winnerpubg/restart.sh /root/restart.sh
+cp /root/yyyy/restart.sh /root/restart.sh
 chmod +x restart.sh
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
@@ -30,7 +30,7 @@ make
 make install
 
 git https://github.com/q2514994747/PUBGlangdong2.git
-cd PUBGlandong2/
+cd yyyy/
 npm i
 npm i -g pino
 npm install -g forever
